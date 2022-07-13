@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_add.xml" value="0.2255" />
+        <entry key="app/src/main/res/drawable/button_shape.xml" value="0.2255" />
+        <entry key="app/src/main/res/drawable/circle_background.xml" value="0.2255" />
+        <entry key="app/src/main/res/drawable/circle_shape.xml" value="0.2255" />
+        <entry key="app/src/main/res/drawable/rectangle_shape.xml" value="0.2255" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33402813965607087" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/batsman_card_layout.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/bowler_card_layout.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/drawer_header.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/favourite_card_layout.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/favourite_card_layouty.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_add_player_details.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/fragment_batsman.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_batting_info.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/fragment_bowler.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_bowling_info.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_favourite.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/fragment_info.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/fragment_players_details.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/player_card_layout.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/menu/menu_drawer.xml" value="0.3338541666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

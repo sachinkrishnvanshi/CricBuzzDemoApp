@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/addPlayerDetailsFragment"
+        android:name="com.example.codelab5.ui.AddPlayerDetailsFragment"
+        android:label="fragment_add_player_details"
+        tools:layout="@layout/fragment_add_player_details" >
+        <action
+            android:id="@+id/action_addPlayerDetailsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.codelab5.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addPlayerDetailsFragment"
+            app:destination="@id/addPlayerDetailsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_playersDetailsFragment"
+            app:destination="@id/playersDetailsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bowlingInfoFragment"
+            app:destination="@id/bowlingInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_battingInfoFragment"
+            app:destination="@id/battingInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_batsmanFragment"
+            app:destination="@id/batsmanFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bowlerFragment"
+            app:destination="@id/bowlerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favouriteFragment"
+            app:destination="@id/favouriteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/playersDetailsFragment"
+        android:name="com.example.codelab5.ui.info.PlayersDetailsFragment"
+        android:label="fragment_players_details"
+        tools:layout="@layout/fragment_players_details" >
+        <action
+            android:id="@+id/action_playersDetailsFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+
+        <action
+            android:id="@+id/action_playersDetailsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.codelab5.ui.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_infoFragment_to_playersDetailsFragment"
+            app:destination="@id/playersDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/battingInfoFragment"
+        android:name="com.example.codelab5.ui.info.BattingInfoFragment"
+        android:label="fragment_batting_info"
+        tools:layout="@layout/fragment_batting_info" />
+    <fragment
+        android:id="@+id/bowlingInfoFragment"
+        android:name="com.example.codelab5.ui.info.BowlingInfoFragment"
+        android:label="fragment_bowling_info"
+        tools:layout="@layout/fragment_bowling_info" />
+    <fragment
+        android:id="@+id/batsmanFragment"
+        android:name="com.example.codelab5.ui.BatsmanFragment"
+        android:label="fragment_batsman"
+        tools:layout="@layout/fragment_batsman" >
+        <action
+            android:id="@+id/action_batsmanFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bowlerFragment"
+        android:name="com.example.codelab5.ui.BowlerFragment"
+        android:label="fragment_bowler"
+        tools:layout="@layout/fragment_bowler" >
+        <action
+            android:id="@+id/action_bowlerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.codelab5.ui.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite" >
+        <action
+            android:id="@+id/action_favouriteFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

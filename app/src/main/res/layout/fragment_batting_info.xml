@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEE2E6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.info.BattingInfoFragment">
+
+    <TextView
+        android:id="@+id/tv_career"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="Career"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_batting_info"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Batting"
+        android:textColor="@color/white"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:background="#009270"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_career" />
+
+    <TextView
+        android:id="@+id/tv_match"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Match"
+        android:textColor="@color/black"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/rectangle_shape"
+        app:layout_constraintTop_toBottomOf="@id/tv_batting_info" />
+
+    <TextView
+        android:id="@+id/tv_batting_match"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:background="@drawable/rectangle_shape"
+        app:layout_constraintLeft_toRightOf="@id/tv_match"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_batting_info" />
+
+    <TextView
+        android:id="@+id/tv_run"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:text="Run"
+        android:textColor="@color/black"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/rectangle_shape"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_match" />
+
+    <TextView
+        android:id="@+id/tv_batting_run"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:padding="5dp"
+        app:layout_constraintLeft_toRightOf="@id/tv_run"
+        android:background="@drawable/rectangle_shape"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_match" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

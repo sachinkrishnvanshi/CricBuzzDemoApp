@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Codelab5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cricket_players">Cricket Players</string>
+    <string name="favourite">Favourite</string>
+    <string name="home">Home</string>
+    <string name="batsman">Batsman</string>
+    <string name="bowler">Bowler</string>
+    <string name="open_drawer"> Open drawer</string>
+    <string name="close_drawer"> Close drawer</string>
+    <string name="data_not_found">Data not found</string>
+</resources>
